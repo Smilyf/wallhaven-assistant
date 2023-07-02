@@ -6,4 +6,4 @@
 python main.py
 ```
 ### parm.json
-下载所需的参数，例如类别、排序、apikey
+下载所需的参数，例如类别、排序、apikey 
