@@ -75,7 +75,7 @@ else:
         file.write("{}")
         print("list.json文件建立成功")
 
-for page in range(2, 3):
+for page in range(1, 2):
     res = requests.get(url + str(page))
     paper = json.loads(res.content)
     for x in paper["data"]:
